@@ -32,3 +32,8 @@ update student
 update student
      set dep_id =1
      where dep_id=2;
+create table faculty (faculty_id int primary key,first_name varchar(50),last_name varchar(80), salary float,dep_id int, foreign key(dep_id) references department(dep_id));
+alter table department add location varchar(100);
+alter table student add dob varchar(60);
+alter table student add gender varchar(30);
+alter table student add cgpa float;
