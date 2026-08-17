@@ -37,3 +37,6 @@ alter table department add location varchar(100);
 alter table student add dob varchar(60);
 alter table student add gender varchar(30);
 alter table student add cgpa float;
+alter table course add credits int;
+alter table course add faculty_id int foreign key (faculty_id) references faculty(faculty_id);
+alter table course course_code varchar(60);
