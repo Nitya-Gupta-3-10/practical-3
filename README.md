@@ -1,4 +1,4 @@
-Command usage,
+#Command usage,
 
 create table - used to create table; 
 
@@ -16,7 +16,7 @@ update table_name - used to update any table
 
 set - used to reset the value
 
-alter table table_name -used to make changes in any table's columns
+#alter table table_name -used to make changes in any table's columns
 alter table table_name drop column column_name - used to remove any column in any table
 alter table table_name add column_name datatype - used to add a column in any table
 alter table table_name modify column_name dataype - used to change any column's datatype in any table
