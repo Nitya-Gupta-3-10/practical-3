@@ -1,7 +1,7 @@
 create database Ramdeobaba_University;
 use Ramdeobaba_University;
 create table department (dep_id int primary key, dep_name varchar(50) unique not null);
-create table student( roll no int primary key, name varchar(50) not null, emai_id varchar(50) unique, addhar_no varchar(12) unique, dep_id int, foreign key (dep_id) references department(dep_id));
+create table student( roll no int primary key, name varchar(50) not null, email_id varchar(50) unique, addhar_no varchar(12) unique, dep_id int, foreign key (dep_id) references department(dep_id));
 create table course (course_id int primary key , course_name varchar(60) not null, dep_id int ,foreign key (dep_id) references  department(dep_id));
 create table enrollment (roll_no int, course_id int, semester int check(semester between 1 and 8),grade char(2),primary key (roll_no,course_id, semester),foreign key (roll_no) references student(roll_no),foreign key (course_id) references course(course_id));
 insert into department values (1,'computer science'),(2,'electronics');
