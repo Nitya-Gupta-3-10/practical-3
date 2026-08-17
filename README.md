@@ -1,5 +1,5 @@
-Command usage
-create table - used to create table 
+Command usage,
+create table - used to create table; 
 datatypes -int , varchar 
 insert - used to enter data into table 
 primary key -used to define any variable as primary key
