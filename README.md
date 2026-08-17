@@ -1,13 +1,21 @@
 Command usage,
 
 create table - used to create table; 
+
 datatypes -int , varchar 
+
 insert - used to enter data into table 
+
 primary key -used to define any variable as primary key
+
 foreign key -used to define any variable as foreign key
+
 unique -used to define any variable as unique( acts as primary key)
+
 update table_name - used to update any table
+
 set - used to reset the value
+
 alter table table_name -used to make changes in any table's columns
 alter table table_name drop column column_name - used to remove any column in any table
 alter table table_name add column_name datatype - used to add a column in any table
