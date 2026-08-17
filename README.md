@@ -1,4 +1,5 @@
 Command usage,
+
 create table - used to create table; 
 datatypes -int , varchar 
 insert - used to enter data into table 
