@@ -39,4 +39,4 @@ describe table_name - used to see all the columns with their constraints in a ta
 show tables - used to see all the tables ina ny database
 
 show create table table_name - used to see detailed structure of any table
-![image alt]( https://github.com/Nitya-Gupta-3-10/practical-3/blob/5d74a9dab3d2cb11169ee147e0834e5ab05a6bc3/college_demo.drawio.png)
+![image alt]( https://github.com/Nitya-Gupta-3-10/practical-3/blob/5493f8e14d07e0e4051a4c30b55bf91f830dc516/college2.drawio.png)
