@@ -40,3 +40,8 @@ show tables - used to see all the tables ina ny database
 
 show create table table_name - used to see detailed structure of any table
 ![image alt]( https://github.com/Nitya-Gupta-3-10/practical-3/blob/5493f8e14d07e0e4051a4c30b55bf91f830dc516/college2.drawio.png)
+# Normalizations,
+1NF is followed in each table.
+there is no partial dependencies , all non-key attributes depends on primary key.
+no non-key attributes depends on non-key attributes-3NF
+
