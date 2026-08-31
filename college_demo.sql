@@ -40,3 +40,4 @@ alter table student add cgpa float;
 alter table course add credits int;
 alter table course add faculty_id int foreign key (faculty_id) references faculty(faculty_id);
 alter table course course_code varchar(60);
+create index idx_student_dep on student(dep_id);
