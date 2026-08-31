@@ -48,4 +48,5 @@ show create table table_name - used to see detailed structure of any table
 3NF is used as no non-key attributes depends on non-key attributes.
 
 BCNF- since there are super keys like roll_no ,course_id,etc
-
+# B-tree
+The CREATE INDEX statement builds a separate, highly organized lookup data structure (the B-tree) dedicated strictly to the dep_id column. It acts exactly like the index at the back of a textbook: instead of flipping through every page to find a topic, you look it up in the index, get the page number, and flip straight there.
