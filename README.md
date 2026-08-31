@@ -48,3 +48,4 @@ show create table table_name - used to see detailed structure of any table
 3NF is used as no non-key attributes depends on non-key attributes.
 
 BCNF- since there are super keys like roll_no ,course_id,etc
+
